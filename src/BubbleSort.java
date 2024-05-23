@@ -7,6 +7,8 @@ public class BubbleSort {
         }
     }
 
+    //Time complexity --> O(n^2).
+
     public static void main(String[] args) {
         int[] arr = {12,10,5,3,98,2};
 
