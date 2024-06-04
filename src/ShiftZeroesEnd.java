@@ -1,4 +1,4 @@
-public class PreZeros {
+public class ShiftZeroesEnd {
 
     public static void display(int[] arr) {
         int len = arr.length;
