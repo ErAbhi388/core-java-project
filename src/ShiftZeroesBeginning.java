@@ -11,9 +11,11 @@ public class ShiftZeroesBeginning {
         for(i=1; i<array.length; i++){
             if(array[i] == 0){
                 for(j=i; j>startIndex;j--){
-                    temp = array[j];
-                    array[j] = array[j-1];
-                    array[j-1] = temp;
+//                    temp = array[j];
+//                    array[j] = array[j-1];
+//                    array[j-1] = temp;
+                    //best for swapping two numbers
+                    array[j] = array[j-1] + array[j]  - (array[j-1]=array[j]);
                 }
                 startIndex++;
             }
