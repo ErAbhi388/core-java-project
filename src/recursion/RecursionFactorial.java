@@ -1,3 +1,5 @@
+package recursion;
+
 public class RecursionFactorial {
 
     public static int findFactorial(int n) {

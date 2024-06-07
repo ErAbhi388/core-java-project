@@ -1,3 +1,5 @@
+package sorting;
+
 public class ShiftZeroesEnd {
 
     public static void display(int[] arr) {

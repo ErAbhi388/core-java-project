@@ -1,3 +1,5 @@
+package sorting;
+
 public class SelectionSort {
 
     public static void display(int[] arr) {

@@ -1,4 +1,4 @@
-//Java Program to Shift the 0's in an Array to the Beginning
+package sorting;//Java Program to Shift the 0's in an Array to the Beginning
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
