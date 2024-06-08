@@ -8,7 +8,7 @@ public class RecursionFactorial {
         }
         int fact_nm1 =  findFactorial(n-1);
         int fact_n = n * fact_nm1;
-       // System.out.println(fact_n);
+        System.out.println(fact_n);
         return fact_n;
     }
 
