@@ -12,13 +12,13 @@ public class TowerOfHanoi {
        // System.out.println("After");
 
        // System.out.println("Before.........");
-        towerOfHanoi(n-1, helper, destination, source);
+        towerOfHanoi(n-1, helper, source, destination);
        // System.out.println("After........");
 
     }
 
     public static void main(String args[]) {
-        int n = 3;
+        int n = 2;
         towerOfHanoi(n, "S","H", "D");
         System.out.println("Transferring disk one from S to D");
 
