@@ -26,7 +26,9 @@ public class RemoveDuplicatesFromString {
 
     }
     public static void main(String[] args) {
-        String s = "abbcc";
+        String s = "addcc";
         removeDuplicates(s, 0, "");
+        int c = 'a';
+        System.out.println(c);
     }
 }
