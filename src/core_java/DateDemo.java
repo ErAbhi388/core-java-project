@@ -17,7 +17,7 @@ public class DateDemo {
         LocalDateTime date1 = LocalDateTime.parse("2024-06-14T00:00:00");
         LocalDate date2 = LocalDate.parse("20240614", DateTimeFormatter.BASIC_ISO_DATE);
         //from the below implementation we can convert a string to any date format
-        LocalDate date3 = LocalDate.parse("Jun, 14, 2024", DateTimeFormatter.ofPattern("MMM, dd, yyyy"));
+        LocalDateTime date3 = LocalDateTime.parse("Jun, 14, 2024 13:00", DateTimeFormatter.ofPattern("MMM, dd, yyyy HH:mm"));
         LocalDate date4 = LocalDate.parse("20240614", DateTimeFormatter.ofPattern("yyyyMMdd"));
 
         //java.util package
@@ -30,18 +30,18 @@ public class DateDemo {
         //TimeZone.setDefault(TimeZone.getTimeZone("GMT"));
        // System.out.println("current time is : "  + LocalDateTime.now());
         //printing dates
-        System.out.println(date);
-        System.out.println(date1);
-        System.out.println(date2);
-        System.out.println(date3);
-        System.out.println(date4);
-        System.out.println(date5);
+        System.out.println("date-->"+date);
+        System.out.println("date1-->" + date1);
+        System.out.println("date2-->" + date2);
+        System.out.println("date3-->" + date3);
+        System.out.println("date4-->" + date4);
+        System.out.println("date5-->" + date5);
 
         //comparing two dates using equals method
         System.out.println(date3.equals(date4));
 
        // comparing two dates using compareTo method ---> if it returns 0 then dates are equal
-        System.out.println(date3.compareTo(date4));
+       System.out.println(date.compareTo(date2));
 
     }
 }
