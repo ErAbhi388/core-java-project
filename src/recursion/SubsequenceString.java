@@ -18,7 +18,7 @@ public class SubsequenceString {
 
     }
     public static void main(String[] args) {
-        String s = "abc";
+        String s = "abcde";
         subSeq(s, 0, "");
     }
 }

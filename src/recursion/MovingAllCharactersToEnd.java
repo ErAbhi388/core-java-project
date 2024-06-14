@@ -17,7 +17,7 @@ public class MovingAllCharactersToEnd {
     }
 
     public static void main(String[] args) {
-        String s = "Abbhibhek";
+        String s = "abbcc";
         moveCharater(s,0,'b',"");
         System.out.println();
     }
