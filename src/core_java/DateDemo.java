@@ -37,8 +37,11 @@ public class DateDemo {
         System.out.println(date4);
         System.out.println(date5);
 
-        //comparing two dates
-        System.out.println(date4.equals(date3));
+        //comparing two dates using equals method
+        System.out.println(date3.equals(date4));
+
+       // comparing two dates using compareTo method ---> if it returns 0 then dates are equal
+        System.out.println(date3.compareTo(date4));
 
     }
 }
