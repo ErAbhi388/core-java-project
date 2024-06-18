@@ -1,5 +1,6 @@
 package sorting;
 
+//this sorting method compares each element with the adjacent element of the array
 public class BubbleSort {
 
     public static void display(int[] arr) {
@@ -17,10 +18,6 @@ public class BubbleSort {
             for(int j=0; j < arr.length-1-i; j++) {
               //  System.out.println("Value of j :"+ j);
                 if(arr[j] > arr[j+1]) {
-//                    int temp=arr[j];
-//                    arr[j]= arr[j+1];
-//                    arr[j+1]=temp;
-                    //swapping two numbers
                     arr[j+1] = arr[j] +arr[j+1] - (arr[j]=arr[j+1]);
 
                 }
