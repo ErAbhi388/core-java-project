@@ -3,7 +3,7 @@ package recursion;
 public class RecursionFactorial {
 
     public static int findFactorial(int n) {
-        if(n==1 || n==0) {
+        if(n==0) {
             return 1;
         }
         int fact_nm1 =  findFactorial(n-1);
