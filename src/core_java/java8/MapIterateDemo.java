@@ -1,4 +1,4 @@
-package simpleJava;
+package core_java.java8;
 
 import java.util.HashMap;
 import java.util.Iterator;
